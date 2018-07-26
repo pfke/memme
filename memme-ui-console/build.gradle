@@ -1,0 +1,7 @@
+apply plugin: 'scala'
+
+dependencies {
+  compile project(':memme-core')
+
+  testCompile project(':memme-testing')
+}

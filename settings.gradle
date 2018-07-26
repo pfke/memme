@@ -1,0 +1,10 @@
+include 'memme-core'
+include 'memme-testing'
+include 'memme-ui-jfx'
+include 'memme-ui-console'
+
+project(":memme-core").name = 'memme-core'
+project(":memme-testing").name = 'memme-testing'
+project(":memme-ui-jfx").name = 'memme-ui-jfx'
+project(":memme-ui-console").name = 'memme-ui.console'
+

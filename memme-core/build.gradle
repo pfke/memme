@@ -1,0 +1,9 @@
+apply plugin: 'scala'
+
+dependencies {
+  compile group: 'com.typesafe.akka', name: "akka-actor_$scalaV", version: akkaV
+
+  compile group: 'org.scala-lang', name: 'scala-compiler', version: scalaReleaseV
+
+  testCompile project(':memme-testing')
+}
